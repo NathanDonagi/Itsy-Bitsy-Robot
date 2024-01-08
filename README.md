@@ -1,1 +1,1 @@
-Simple Arduino path following for a robot I made. Specifiy paths in the path.cpp file.
+Simple Arduino path following code for a robot I made. You can Specifiy paths in the path.cpp file. I was working with a 20-dollar kit with encoders so terrible that any odometry relying on them would be doomed to inaccuracy. It took weeks of work, combining data from accelerometers, ultrasonic distance sensors, and a Kalman filter (running on the built mpu6050s built in dmp) to yield anything resembling accurate tracking.
